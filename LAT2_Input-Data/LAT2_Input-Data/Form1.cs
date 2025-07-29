@@ -31,6 +31,14 @@ namespace LAT2_Input_Data
             email = txtEmail.Text;
             alamat = txtAlamat.Text;
 
+            if (txtKtp.Text == "" || txtNama.Text == "" || txtTempat.Text == "" ||
+             txtAgama.Text == "" || txtEmail.Text == "" || txtAlamat.Text == "" ||
+             cmbKelamin.SelectedIndex == -1)
+            {
+                MessageBox.Show("Semua kolom harus diisi!");
+                return;
+            }
+
             Form2 form2 = new Form2(
                 ktp,
                 nama,
