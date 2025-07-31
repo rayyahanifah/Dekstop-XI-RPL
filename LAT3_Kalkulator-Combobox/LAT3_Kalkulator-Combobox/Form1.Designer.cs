@@ -130,7 +130,7 @@
             tblHapusHistory.TabIndex = 9;
             tblHapusHistory.Text = "Hapus History";
             tblHapusHistory.UseVisualStyleBackColor = true;
-            tblHapusHistory.Click += tblHapusHistory_Click;
+            tblHapusHistory.Click += tblHapusHistoryg  _Click;
             // 
             // label3
             // 
