@@ -68,5 +68,10 @@ namespace LAT_3_Form_Login_Menu_Perhitungan
         {
 
         }
+
+        private void txtSisi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

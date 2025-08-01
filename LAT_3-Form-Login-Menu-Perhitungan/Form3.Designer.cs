@@ -45,38 +45,44 @@
             // 
             // tblTutup
             // 
-            tblTutup.Location = new Point(402, 159);
+            tblTutup.BackColor = Color.FromArgb(255, 192, 192);
+            tblTutup.FlatStyle = FlatStyle.Popup;
+            tblTutup.Location = new Point(215, 276);
             tblTutup.Name = "tblTutup";
-            tblTutup.Size = new Size(70, 23);
+            tblTutup.Size = new Size(89, 23);
             tblTutup.TabIndex = 15;
             tblTutup.Text = "Tutup";
-            tblTutup.UseVisualStyleBackColor = true;
+            tblTutup.UseVisualStyleBackColor = false;
             // 
             // tblHapus
             // 
-            tblHapus.Location = new Point(316, 130);
+            tblHapus.BackColor = Color.FromArgb(192, 255, 255);
+            tblHapus.FlatStyle = FlatStyle.Popup;
+            tblHapus.Location = new Point(113, 131);
             tblHapus.Name = "tblHapus";
-            tblHapus.Size = new Size(70, 23);
+            tblHapus.Size = new Size(89, 23);
             tblHapus.TabIndex = 14;
             tblHapus.Text = "Hapus";
-            tblHapus.UseVisualStyleBackColor = true;
+            tblHapus.UseVisualStyleBackColor = false;
             tblHapus.Click += tblHapus_Click;
             // 
             // tblHitung
             // 
-            tblHitung.Location = new Point(402, 130);
+            tblHitung.BackColor = Color.FromArgb(192, 255, 192);
+            tblHitung.FlatStyle = FlatStyle.Popup;
+            tblHitung.Location = new Point(215, 131);
             tblHitung.Name = "tblHitung";
-            tblHitung.Size = new Size(70, 23);
+            tblHitung.Size = new Size(89, 23);
             tblHitung.TabIndex = 13;
             tblHitung.Text = "Hitung";
-            tblHitung.UseVisualStyleBackColor = true;
+            tblHitung.UseVisualStyleBackColor = false;
             tblHitung.Click += tblHitung_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(188, 83);
+            label2.Location = new Point(113, 90);
             label2.Name = "label2";
             label2.Size = new Size(89, 19);
             label2.TabIndex = 10;
@@ -84,16 +90,17 @@
             // 
             // txtSisi
             // 
-            txtSisi.Location = new Point(283, 83);
+            txtSisi.Location = new Point(208, 90);
             txtSisi.Name = "txtSisi";
-            txtSisi.Size = new Size(80, 23);
+            txtSisi.Size = new Size(96, 23);
             txtSisi.TabIndex = 9;
+            txtSisi.TextChanged += txtSisi_TextChanged;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(99, 33);
+            label1.Location = new Point(35, 34);
             label1.Name = "label1";
             label1.Size = new Size(355, 31);
             label1.TabIndex = 8;
@@ -103,7 +110,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label5.Location = new Point(72, 120);
+            label5.Location = new Point(113, 176);
             label5.Name = "label5";
             label5.Size = new Size(45, 19);
             label5.TabIndex = 18;
@@ -113,7 +120,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label6.Location = new Point(57, 150);
+            label6.Location = new Point(113, 206);
             label6.Name = "label6";
             label6.Size = new Size(61, 19);
             label6.TabIndex = 19;
@@ -123,7 +130,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Times New Roman", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label7.Location = new Point(57, 181);
+            label7.Location = new Point(113, 237);
             label7.Name = "label7";
             label7.Size = new Size(61, 19);
             label7.TabIndex = 20;
@@ -131,40 +138,45 @@
             // 
             // txtLuas
             // 
-            txtLuas.Location = new Point(123, 120);
+            txtLuas.Enabled = false;
+            txtLuas.Location = new Point(180, 176);
             txtLuas.Name = "txtLuas";
-            txtLuas.Size = new Size(116, 23);
+            txtLuas.Size = new Size(124, 23);
             txtLuas.TabIndex = 21;
             // 
             // txtKeliling
             // 
-            txtKeliling.Location = new Point(123, 150);
+            txtKeliling.Enabled = false;
+            txtKeliling.Location = new Point(180, 206);
             txtKeliling.Name = "txtKeliling";
-            txtKeliling.Size = new Size(116, 23);
+            txtKeliling.Size = new Size(124, 23);
             txtKeliling.TabIndex = 22;
             // 
             // txtVolume
             // 
-            txtVolume.Location = new Point(123, 181);
+            txtVolume.Enabled = false;
+            txtVolume.Location = new Point(180, 237);
             txtVolume.Name = "txtVolume";
-            txtVolume.Size = new Size(116, 23);
+            txtVolume.Size = new Size(124, 23);
             txtVolume.TabIndex = 23;
             // 
             // button1
             // 
-            button1.Location = new Point(316, 159);
+            button1.BackColor = Color.FromArgb(255, 255, 192);
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Location = new Point(113, 276);
             button1.Name = "button1";
-            button1.Size = new Size(70, 23);
+            button1.Size = new Size(89, 23);
             button1.TabIndex = 24;
             button1.Text = "Kembali";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
             // FormKubus
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(552, 245);
+            ClientSize = new Size(436, 339);
             Controls.Add(button1);
             Controls.Add(txtVolume);
             Controls.Add(txtKeliling);
