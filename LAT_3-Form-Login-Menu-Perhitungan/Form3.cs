@@ -27,9 +27,9 @@ namespace LAT_3_Form_Login_Menu_Perhitungan
                 double keliling = 12 * sisi;
                 double volume = sisi * sisi * sisi;
 
-                txtLuas.Text = luas.ToString();
-                txtKeliling.Text = keliling.ToString();
-                txtVolume.Text = volume.ToString();
+                txtLuas.Text = luas.ToString("F2");
+                txtKeliling.Text = keliling.ToString("F2");
+                txtVolume.Text = volume.ToString("F2");
             }
             else
             {

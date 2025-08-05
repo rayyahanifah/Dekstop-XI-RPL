@@ -25,9 +25,9 @@ namespace LAT_3_Form_Login_Menu_Perhitungan
             {
                 double phi = 3.14;
 
-                double luas = 4 * phi * r * r;               // Luas permukaan bola
-                double keliling = 2 * phi * r;               // Keliling lingkaran besar
-                double volume = (4.0 / 3.0) * phi * r * r * r; // Volume bola
+                double luas = 4 * phi * r * r;              
+                double keliling = 2 * phi * r;               
+                double volume = (4.0 / 3.0) * phi * r * r * r; 
 
                 txtLuas.Text = luas.ToString("F2");
                 txtKeliling.Text = keliling.ToString("F2");

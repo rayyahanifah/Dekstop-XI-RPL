@@ -61,6 +61,7 @@
             // 
             // txtVolume
             // 
+            txtVolume.Enabled = false;
             txtVolume.Location = new Point(227, 286);
             txtVolume.Name = "txtVolume";
             txtVolume.Size = new Size(116, 23);
@@ -68,6 +69,7 @@
             // 
             // txtKeliling
             // 
+            txtKeliling.Enabled = false;
             txtKeliling.Location = new Point(227, 255);
             txtKeliling.Name = "txtKeliling";
             txtKeliling.Size = new Size(116, 23);
@@ -75,6 +77,7 @@
             // 
             // txtLuas
             // 
+            txtLuas.Enabled = false;
             txtLuas.Location = new Point(227, 225);
             txtLuas.Name = "txtLuas";
             txtLuas.Size = new Size(116, 23);

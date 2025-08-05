@@ -30,9 +30,7 @@ namespace LAT_3_Form_Login_Menu_Perhitungan
 
                 double volume = (1.0 / 3.0) * luasAlas * tinggi;
 
-                double luasPermukaan = luasAlas;
-
-                txtLuas.Text = luasPermukaan.ToString("F2");
+                txtLuas.Text = luasAlas.ToString("F2");
                 txtKeliling.Text = kelilingAlas.ToString("F2");
                 txtVolume.Text = volume.ToString("F2");
             }

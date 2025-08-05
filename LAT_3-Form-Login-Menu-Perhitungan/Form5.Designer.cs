@@ -61,6 +61,7 @@
             // 
             // txtVolume
             // 
+            txtVolume.Enabled = false;
             txtVolume.Location = new Point(172, 282);
             txtVolume.Name = "txtVolume";
             txtVolume.Size = new Size(123, 23);

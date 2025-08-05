@@ -102,9 +102,9 @@
             label1.Font = new Font("Times New Roman", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(35, 34);
             label1.Name = "label1";
-            label1.Size = new Size(355, 31);
+            label1.Size = new Size(363, 31);
             label1.TabIndex = 8;
-            label1.Text = "Mari Kita Menghitung Balok";
+            label1.Text = "Mari Kita Menghitung Kubus";
             // 
             // label5
             // 
