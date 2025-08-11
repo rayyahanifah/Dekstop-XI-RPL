@@ -673,10 +673,8 @@ namespace TUGAS_Kalkulator_Menu_Warteg
                 return;
             }
 
-            // Ambil nama pembeli
             string nama = txtNama.Text;
 
-            // List untuk menampung pesanan
             List<string> pesanan = new List<string>();
 
             // Karbohidrat

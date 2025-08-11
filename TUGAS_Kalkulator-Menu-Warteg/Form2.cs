@@ -19,16 +19,13 @@ namespace TUGAS_Kalkulator_Menu_Warteg
         {
             InitializeComponent();
 
-            // Tampilkan nama pembeli
             lblNama.Text = nama;
 
-            // Tampilkan daftar pesanan
             foreach (string item in pesanan)
             {
                 listBoxPesanan.Items.Add(item);
             }
 
-            // Tampilkan total harga
             txtTotal.Text = Form1.total.ToString("C0", indo);
             txtPajak.Text = Form1.nilaiPajak.ToString("C0", indo);
             txtHarga.Text = Form1.subtotal.ToString("C0", indo);

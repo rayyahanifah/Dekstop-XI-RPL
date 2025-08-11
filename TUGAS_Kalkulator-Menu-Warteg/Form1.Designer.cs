@@ -120,7 +120,6 @@
             rbtnBuburKetanHitam.Name = "rbtnBuburKetanHitam";
             rbtnBuburKetanHitam.Size = new Size(225, 23);
             rbtnBuburKetanHitam.TabIndex = 4;
-            rbtnBuburKetanHitam.TabStop = true;
             rbtnBuburKetanHitam.Text = "Bubur Ketan Hitam (Rp. 10000)";
             rbtnBuburKetanHitam.UseVisualStyleBackColor = true;
             rbtnBuburKetanHitam.CheckedChanged += rbtnBuburKetanHitam_CheckedChanged;
@@ -132,7 +131,6 @@
             rbtnBuburKacangHijau.Name = "rbtnBuburKacangHijau";
             rbtnBuburKacangHijau.Size = new Size(216, 23);
             rbtnBuburKacangHijau.TabIndex = 3;
-            rbtnBuburKacangHijau.TabStop = true;
             rbtnBuburKacangHijau.Text = "Bubur Kacang Ijo (Rp. 10000)";
             rbtnBuburKacangHijau.UseVisualStyleBackColor = true;
             rbtnBuburKacangHijau.CheckedChanged += rbtnBuburKacangHijau_CheckedChanged;
@@ -144,7 +142,6 @@
             rbtnBuburAyam.Name = "rbtnBuburAyam";
             rbtnBuburAyam.Size = new Size(182, 23);
             rbtnBuburAyam.TabIndex = 2;
-            rbtnBuburAyam.TabStop = true;
             rbtnBuburAyam.Text = "Bubur Ayam (Rp. 12000)";
             rbtnBuburAyam.UseVisualStyleBackColor = true;
             rbtnBuburAyam.CheckedChanged += rbtnBuburAyam_CheckedChanged;
@@ -156,7 +153,6 @@
             rbtnNasi2.Name = "rbtnNasi2";
             rbtnNasi2.Size = new Size(178, 23);
             rbtnNasi2.TabIndex = 1;
-            rbtnNasi2.TabStop = true;
             rbtnNasi2.Text = "Nasi ½ Porsi (Rp. 3000)";
             rbtnNasi2.UseVisualStyleBackColor = true;
             rbtnNasi2.CheckedChanged += rbtnNasi2_CheckedChanged;
@@ -168,7 +164,6 @@
             rbtnNasi1.Name = "rbtnNasi1";
             rbtnNasi1.Size = new Size(174, 23);
             rbtnNasi1.TabIndex = 0;
-            rbtnNasi1.TabStop = true;
             rbtnNasi1.Text = "Nasi 1 Porsi (Rp. 5000)";
             rbtnNasi1.UseVisualStyleBackColor = true;
             rbtnNasi1.CheckedChanged += rbtnNasi1_CheckedChanged;
